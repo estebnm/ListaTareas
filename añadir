@@ -1,0 +1,16 @@
+<html>
+        <head>
+                <title>TI-1401 Lab14</title>
+            <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+          </head>
+        <body>
+                <div id="container">
+                        <h1>Lista de Tareas</h1>
+                        <p>Añadir una nueva tarea</p>
+                        <form action="/add" method="post">
+                                <div><input type="text" name="content"></input></div>
+                                <div><input type="submit" value="Agregar tarea"></div>
+                        </form>
+                </container>
+        </body>
+</html>
